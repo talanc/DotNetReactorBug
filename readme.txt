@@ -1,3 +1,7 @@
+Update:
+- Fixed in .NET Reactor v6.7.1.7
+
+
 Notes:
 - Requires dotnet SDK and .NET Reactor installed
 - Tested on .NET Reactor 6.7.0
@@ -6,6 +10,7 @@ Notes:
 - I've found that mixing debug/release builds makes it work
 - Build from the command line with dotnet as VS plays around with bin/obj folders
 - Also found that the build/protect sometimes works, do another z_release build and it should start failing again
+
 
 Instructions:
 1) Run z_release_build_and_protect.cmd
